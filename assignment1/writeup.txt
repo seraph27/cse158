@@ -1,1 +1,17 @@
-Nothing yet
+Part 1 (Classification Part):
+I tried so many things, at least 15 hours on this part and nothing really beats the easy baseline, so I'm not really sure why. the dataset seems to be 
+heavily skewed towards popularity of the books. I wanted to use a deep learning model but I dont have enough knowledge for it. The best model 
+I can make is still combining jaccard similiarity with popularity vote. I tried things like cosine similiarity (which worked very badly), popular 
+users (users who read more books), taking logs for certain values and other ideas. I tried fitting the features with gradient boosters, and regression models
+but it also didn't work well (mostly in 70% ish).
+
+Part 2 (Rating Part):
+I tried a long time on this part as well, and specically writing a latent factor model with the gamma parameters but it just doesn't work as well
+Locally I get 1.41 MSE but on gradescope it goes to 1.43. I can't figure out why and also I don't know how to do cross validation so it was very 
+tedious. The key point here was adding a different lambda for both the user and the book, and fine tuning them each, instead of using the same parameter
+
+Overall this is a very hard homework and I wish there was more guidance. 
+
+Resources used:
+I edited certain code from the hw3 solution, because I realized that I made mistakes during my hw3 homework. So I didn't use exactly from my hw3 code
+. I saw that it was allowed on piazza. Similiarly, I used chatgpt for debugging, and syntax purposes.
