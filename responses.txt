@@ -1,0 +1,27 @@
+{
+  "294375609": 
+    [(4, "Described the dataset and explained assignment requirements."),
+     (3, "There is no specific section for addressing predictive tasks, but is covered across the paper."),
+     (4, "Explained the model used and the methods used."),
+     (5, "Looks ok to me."),
+     (4, "Conclusion is adequate.")],
+  "294407657": 
+    [(5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required.")],
+  "294397356": 
+    [(5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required."),
+     (7, "Bonus points, pretty exceptional stuff. You can tell they put in a lot of effort."),
+     (5, "Overall really complete and covers all the points required."),
+     (5, "Overall really complete and covers all the points required.")],
+  "294421925": 
+    [(4, "Looks ok to me."),
+     (4, "Looks ok to me."),
+     (4, "Looks ok to me."),
+     (4, "Looks ok to me."),
+     (5, "Looks ok to me.")],
+  "ranking": ["294397356", "294407657","294375609","294421925"]
+}
